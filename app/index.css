@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.console * {
+    font-family: monospace;
+}
+
+.console {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+}
+
+.console-history {
+    flex-grow: 1;
+    box-sizing: border-box;
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.console-input-log,
+.console-output-log {
+    box-sizing: border-box;
+    padding: 6px 12px;
+}
+
+.console-input-log:hover,
+.console-output-log:hover {
+    background-color: rgba(255, 255, 255 0.03);
+}
+
+.console-input-log {
+    color: white;
+    font-weight: bold;
+}
+
+.console-output-log {
+    color: #00ffcc;
+    font-weight: bold;
+}
+
+.console-input {
+    flex-shrink: 0;
+    box-sizing: border-box;
+    padding: 12px;
+    border: none;
+    border-top: 1px solid #333333;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+    outline: none;
+    transition: background 0.2s;
+}
+
+.console-input:hover,
+.console-input:focus {
+    background-color: rgba(255, 255, 255, 0.07);
+}

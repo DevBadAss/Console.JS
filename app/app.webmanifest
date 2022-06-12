@@ -1,0 +1,13 @@
+{
+    "background_color": "#111111",
+    "color": "#00ffcc",
+    "name": "Console.JS",
+    "short_name": "Console",
+    "display": "fullscreen",
+    "lang": "en-UK",
+    "orientation": "landscape-secondary",
+    "start_url": "./index.html",
+    "description": "A simple JavaScript Console",
+    "theme_color": "#111111",
+    "author": "Olawoore Emmanuel Collins"
+}

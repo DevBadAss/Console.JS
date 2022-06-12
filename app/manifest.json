@@ -1,0 +1,16 @@
+{
+    "name": "Console.JS",
+    "version": 2,
+    "version_name": "Console.JS v0.0.1",
+    "default_locale": "en",
+    "default_title": "JS Console",
+    "permission": [],
+    "description": "A simple JavaScript Console",
+    "theme": {
+        "color": { "frame": "#111111" }
+    },
+    "developer": {
+        "name": "Olawoore Emmanuel Collins"
+    },
+    "author": "Olawoore Emmanuel Collins"
+}
